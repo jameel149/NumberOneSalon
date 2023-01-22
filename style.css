@@ -303,6 +303,7 @@ margin-top: 5px;
 	overflow: hidden;
 }
 .section-title{
+	margin-top: 50px;
 	text-align: center;
 	color: #f5f5f5;
 	text-transform: uppercase;
@@ -376,6 +377,7 @@ margin-top: 5px;
 .apointment{
 	display: block;
 	justify-content: center;
+	margin: 10px;
 	
 }
 .apointment-title{
@@ -394,10 +396,10 @@ margin-top: 5px;
 	transform: translateX(-50%);
 }
 .apointment-list{
-	justify-content: center;
-	display:grid;
-	margin-right: 500px;
+	justify-content: left;
+	display: grid;
 	margin-top: 15px;
+	margin-left: 50px;
 	margin-bottom: 50px;
 }
 .apointment-list h3{
@@ -443,5 +445,8 @@ margin-top: 5px;
 	.containe{
 		width: 80%;
 		height: 50%;
+	}
+	.apointment{
+		margin: 0px 10px;
 	}
 }
