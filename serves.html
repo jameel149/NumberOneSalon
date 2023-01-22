@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Number one Salon |Service</title>
+		<link rel="icon" href="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/2454095c79.js" crossorigin="anonymous"></script>
+
+	</head>
+    <body>
+        <div class="header">
+        <div class="container">
+        <div class="navbar">
+            <div class="logo">
+              <img src="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" width="150px">
+            </div>
+            <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">HOME</a></li>
+              <li><a class="active" href="serves.html">SERVICE</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+            </nav>
+            <img src ="photos/Menu.svg" class="menu-icon" onclick="menutoggle()">
+        </div>     
+    </div>
+	</div>
+<!-------------service-------------->
+<div class="service-section">
+	<div class="inner-width">
+		<h1 class="section-title">Our Service</h1>
+		<div class="border"></div>
+		<div class="services-container">
+
+		<div class="service-box">
+			<div class="service-icon">
+				<i class="fa-solid fa-scissors"></i>
+			</div>
+			<div class="service-title">HAIR CUT</div>
+			<div class="service-desc"> get the best and unique hair cuts for your self</div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<img class="pic" src="photos/toppng.com-index-of-publicsguy-icons-moustache-icon-898x310.png">
+			</div>
+			<div class="service-title">BEARDCUT</div>
+			<div class="service-desc">Your beard is treasure that we can handle and treat it delicately </div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<i class="fa-solid fa-spray-can-sparkles"></i>
+			</div>
+			<div class="service-title">HAIR STYLING</div>
+			<div class="service-desc">Our hair styles are done by unique barbers</div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<i class="fa-solid fa-droplet"></i>
+			</div>
+			<div class="service-title">HAIR COLORING</div>
+			<div class="service-desc">color your hair for the best colors avalible</div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<i class="fa-solid fa-leaf"></i>
+			</div>
+			<div class="service-title">FACE WAXING</div>
+			<div class="service-desc">Get a sparkling soft leaf smooth face </div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<img src="photos/sparks-icon-10.jpg">
+			</div>
+			<div class="service-title">HAIR PROTIEN TREATMENT</div>
+			<div class="service-desc">Make your hair smoother and shiner hair with our best hair protien product</div>
+		</div>
+		<div class="service-box">
+			<div class="service-icon">
+				<i class="fa-solid fa-child"></i>
+			</div>
+			<div class="service-title">CHILDREN'S HAIR CUT</div>
+			<div class="service-desc">Give your chiled confidence with the hair cut</div>
+		</div>
+		</div>
+	</div>
+<!------------apointments-------------->
+<div class="apointment">
+	<div class="apointment-title">	
+	<h1>FOR APOINTMENT</h1>
+	</div>
+	<div class="apointment-list">
+		<h3>Phone No: <a>+905366953790</a></h3>
+		<h3>instagram: <a href="https://www.instagram.com/number1.barber.shop/">@number1.barber.shop</a></h3>
+		<h3>facebook: <a href="https://www.facebook.com/number1.barber.shop.tr/">@number1.barber.shop.tr</a></h3>
+	</div>
+</div>
+</div>
+<!--------------footer---------------->
+
+    <div class="footer">
+		<div class="container">
+			<div class="row">
+                <div class="footer-col-2">
+                    <img src="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" width="125px">
+                    <img src="photos/e3a8e882-dad8-49c9-a01c-0d8243ed9422-removebg.png" width="125px">
+					<p>We produce the best for your precious hair your satsfiction is our most importent goal </p>
+				</div>
+				<div class="footer-col-3">
+					<h3> Useful links</h3>
+					<ul>
+						<li><a href="https://goo.gl/maps/gPrQKr1LkFsVyGvT8">Number one salon location</a></li>
+					</ul>
+				</div>
+				<div class="footer-col-4">
+					<h3>Follow us</h3>
+					<ul>
+						<li> <a href="https://www.facebook.com/number1.barber.shop.tr/"> Facebook </a></li>
+						<li> <a href="https://www.instagram.com/number1.barber.shop/">Instagram</a></li>
+						<li><a href="https://www.tiktok.com/@number1.barber.shop">Tiktiok</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<p class="copyright">Copyright 2023 - Number One Salon</p>
+		</div>
+	</div>
+    <!----------js for toggle menu-------->
+	<script>
+		var MenuItems = document.getElementById("MenuItems");
+		
+		MenuItems.style.maxHeight = "0px";
+		function menutoggle(){
+			
+			if(MenuItems.style.maxHeight == "0px")
+			{
+				MenuItems.style.maxHeight = "200px";
+			}
+			else
+			{
+				MenuItems.style.maxHeight = "0px";
+			}
+		}
+	</script>
+</html>
