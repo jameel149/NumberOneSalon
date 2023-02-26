@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Number one Salon |Contact</title>
+        <title>صالون نمبر ون |التواصل</title>
         <link rel="icon" href="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" type="image/x-icon"/>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;600;800&display=swap" rel="stylesheet">
@@ -28,11 +28,11 @@
               <img src="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" width="150px">
             </div>
             <nav>
-            <ul id="MenuItems">
-              <li><a href="index.html">HOME</a></li>
-              <li><a href="serves.html">SERVICE</a></li>
-              <li><a class="active" href="contact.html">CONTACT</a></li>
-            </ul>
+                <ul id="MenuItems">
+                    <li><a href="index-ar.html">الصفحة الرئيسية</a></li>
+                    <li><a href="serves-ar.html">الخدمات</a></li>
+                    <li><a class="active" href="contact-ar.html">التواصل</a></li>
+                  </ul>
             </nav>
             <img src ="photos/Menu.svg" class="menu-icon" onclick="menutoggle()">
         </div>     
@@ -41,27 +41,27 @@
     <section>
         <div class="containe">
                <form action="https://formspree.io/f/mrgvbywe" method="POST" id="my-form">
-                <h3>GET IN TOUCH</h3>
+                <h3>تواصل معنا</h3>
                <div class=" form-group">
-               <label for="firstName"> First Name</label>
+               <label for="firstName">الإسم الأول</label>
                <input type="text" id="firstName" name="firstName">
                </div>
                <div class="form-group">
-               <label for="1atsName">Last Name</label>
+               <label for="1atsName">الإسم الأخير</label>
                <input type="text" id="lastName" name="lastName">
                </div>
    
                <div class="form-group">
-               <label for="emai1">Email</1abe1>
+               <label for="emai1">البريد الإلكتروني</1abe1>
                <input type="email" id="email" name="email">
                </div>
    
                <div class="form-group">
-               <label for="massage">Massage</label>
+               <label for="massage">الرسالة</label>
                <textarea name="massage" id="massage" cols="30" rows="6"></textarea>
                </div>
                
-               <button type="submit">Submit</button>
+               <button type="submit">تقديم</button>
                <div id="status"></div>
               </form>
         </div>
@@ -83,51 +83,51 @@
         }
       }).then(response => {
         if (response.ok) {
-          status.innerHTML = "Thanks for your submission!";
+          status.innerHTML = "شكرا للإرسال";
           form.reset()
         } else {
           response.json().then(data => {
             if (Object.hasOwn(data, 'errors')) {
               status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
             } else {
-              status.innerHTML = "Oops! There was a problem submitting your form"
+              status.innerHTML = "أُووبس! كانت هناك مشكلة في إرسال النموذج الخاص بك"
             }
           })
         }
       }).catch(error => {
-        status.innerHTML = "Oops! There was a problem submitting your form"
+        status.innerHTML = "أُووبس! كانت هناك مشكلة في إرسال النموذج الخاص بك"
       });
     }
     form.addEventListener("submit", handleSubmit)
 </script>
 <!------------footer--------->
 <div class="footer">
-  <div class="container">
-    <div class="row">
-              <div class="footer-col-2">
-                  <img src="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" width="125px">
-                  <img src="photos/e3a8e882-dad8-49c9-a01c-0d8243ed9422-removebg.png" width="125px">
-        <p>Hair cuts is the one hard mission we are successful in</p>
-      </div>
-      <div class="footer-col-3">
-        <h3> Useful links</h3>
-        <ul>
-          <li><a href="https://goo.gl/maps/gPrQKr1LkFsVyGvT8">Number one salon location</a></li>
-        </ul>
-      </div>
-      <div class="footer-col-4">
-        <h3>Follow us</h3>
-        <ul>
-          <li> <a href="https://www.facebook.com/number1.barber.shop.tr/"> Facebook </a></li>
-          <li> <a href="https://www.instagram.com/number1.barber.shop/">Instagram</a></li>
-          <li><a href="https://www.tiktok.com/@number1.barber.shop">Tiktiok</a></li>
-        </ul>
-      </div>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-2">
+                <img src="photos/295828182_509166121092055_2484680806899042195_n-removebg-preview.png" width="125px">
+                <img src="photos/e3a8e882-dad8-49c9-a01c-0d8243ed9422-removebg.png" width="125px">
+                <p>قص الشعر هو المهمة الصعبة التي نجحنا فيها</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>روبط مفيدة</h3>
+                <ul>
+                    <li><a href="https://goo.gl/maps/gPrQKr1LkFsVyGvT8">موقع صلون نمبر ون </a></li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>تابعنا على</h3>
+                <ul>
+                    <li> <a href="https://www.facebook.com/number1.barber.shop.tr/">فيسبوك</a></li>
+                    <li> <a href="https://www.instagram.com/number1.barber.shop/">إنستاقرام</a></li>
+                    <li><a href="https://www.tiktok.com/@number1.barber.shop">تيكتوك</a></li>
+                </ul>
+            </div>
+        </div>
+        <a class="ar" href="contact-ar.html"style="color: grey;" >عربي</a><a>/</a><a class="en" href="contact.html" >EN</a>
+        <hr>
+        <p class="copyright">حقوق النشر و الطباعة2023 - صالون نمبر ون-</p>
     </div>
-    <a class="ar" href="contact-ar.html">AR</a><a>/</a><a class="en" href="contact.html"style="color: grey;">EN</a>
-    <hr>
-    <p class="copyright">Copyright 2023 - Number One Salon</p>
-  </div>
 </div>
     <!----------js for toggle menu-------->
     <script>

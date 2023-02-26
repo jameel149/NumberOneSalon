@@ -5,7 +5,8 @@
 }
 body{
 	font-family: 'Inter', sans-serif;
-    background: #2E4750;
+    font-family: 'Marhey', cursive;
+	background: #2E4750;
 }
 /*---------navication bar---------*/
 .navbar {
@@ -46,6 +47,7 @@ body{
 }
 a{
     text-decoration: none;
+	font-size:medium;
     color: #F6C90E;
 }
 .navbar li a.active::after{
@@ -71,7 +73,7 @@ a{
 }
 p{
     color: #F7F7F7;
-    font-size: smaller;
+    font-size: medium;
 }
 /*---------first page-------*/
 .logo-big h1{
@@ -85,8 +87,12 @@ p{
 .discription h1{
     text-size-adjust: 500px;
 }
+.discription h1 a{
+	font-size: larger;
+}
 .discription h1{
     text-align: center;
+	color: #e6e1e1;
     margin-top: 20px;
 }
 .discription p{
@@ -100,8 +106,8 @@ p{
 .discription h5 a{
     background: #F6C90E;
     border-radius: 90px;
-    color: black;
-    font-size: medium;
+    color: #000000;
+    font-size: large;
     font-weight: 600;
     padding: 2px 20px;
 }
@@ -140,9 +146,10 @@ p{
     text-align: justify;
 }
 .timing-table h3 a:last-child{
-    color: #8d8d8d;
+    color: #e6e1e1;
     text-align: center;
     margin-left: -10px;
+	font-size: 30px;
 }
 /*-------brands---------*/
 .brands{
@@ -214,6 +221,9 @@ ul{
 }
 .copyright{
 	text-align: center;
+}
+.ar{
+	margin-left: 10px;
 }
 /*--------contact----------*/
 section{
@@ -366,7 +376,7 @@ margin-top: 5px;
 	filter: invert(99%) sepia(1%) saturate(134%) hue-rotate(174deg) brightness(116%) contrast(94%);
 }
 .service-title{
-	font-size: 10px;
+	font-size: 20px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
 }
