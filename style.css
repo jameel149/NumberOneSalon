@@ -436,6 +436,9 @@ margin-top: 5px;
 		margin-bottom: 20px;
        
 	}
+	.discription h1{
+		color:#000000;
+	}
 	.menu-icon{
 		display: block;
 		cursor: pointer;
